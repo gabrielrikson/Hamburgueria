@@ -1,3 +1,15 @@
 @media screen and (max-width: 768px){
+    .menu-desktop{
+        display: none;
+    }
+    .banner-main h2{
+        padding-top: 40%;
+    }
     
+    .banner-main p{
+        
+    }
+    .banner-main a{
+        
+    }
 }

@@ -2,6 +2,9 @@ header{
     width: 100%;
     padding: 1% 0;
     background-color: black;
+    -webkit-box-shadow: 0px 6px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 3px -1px rgba(0,0,0,0.75);
 }
 
 .logo{
@@ -27,4 +30,80 @@ header{
     margin-right: 30px;
     color: rgb(255, 210, 88);
     font: 600 12pt 'Merriweather';
+}
+.menu-desktop a:hover{
+    color: rgb(240, 100, 75);
+    transition: .5s;
+}
+
+/* FINAL DO HEADER */
+
+section.banner-main{
+    width: 100%;
+    height: 720px;
+    background-image: url('../images/bannerPrincipal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 44, 44, 0.288);
+}
+
+.banner-main h2{
+    font-size: 46px;
+    padding-top: 20%;
+    color: white;
+}
+
+.banner-main p{
+    color: white;
+    font-size: 22px;
+    padding: 28px 0;
+    line-height: 25px;
+}
+.banner-main a{
+    color: white;
+    background-color: rgb(255, 123, 0);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.banner-main a:hover{
+    transition: .5s;
+    background-color: rgb(184, 49, 0);
+}
+/* FINAL BANNER MAIN */
+
+section.sobre{
+    -webkit-box-shadow: 0px -8px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -8px 8px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px -8px 8px 2px rgba(0, 0, 0, 0.75);
+    min-height: 500px;
+    color: white;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+section.sobre h2{
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+section.sobre p{
+    margin: 0 auto;
+    width: 90%;
+    padding: 14px 0;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+sectio.sobre a{
+    color: white;
 }
