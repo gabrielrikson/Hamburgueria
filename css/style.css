@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    padding: 1% 0;
+    background-color: black;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h3{
+    font: 800 20pt 'Merriweather';
+    color: rgb(255, 210, 88);
+}
+
+.menu-desktop{
+    float: right;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    padding: 8px 0;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgb(255, 210, 88);
+    font: 600 12pt 'Merriweather';
+}

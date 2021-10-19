@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.clear{
+    clear: both;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.w100{
+    width: 100%;
+    float: left;
+}
