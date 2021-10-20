@@ -107,3 +107,11 @@ section.sobre p{
 sectio.sobre a{
     color: white;
 }
+
+/* FINAL DA SEÇÃO SOBRE */
+
+section.galeria-fotos{
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
